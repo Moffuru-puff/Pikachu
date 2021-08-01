@@ -11,7 +11,7 @@ body {
   justify-content: center;
   width: fit-content;
   width: -moz-fit-content;
-  padding: 50%;
+  padding: 100%;
   background-color: rgb(255, 255, 255);
 
 }
