@@ -1,0 +1,312 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  width: -moz-fit-content;
+  padding: 50%;
+
+}
+
+
+/* CABEZA */
+
+.cabeza {
+  display: flex;
+  background-color: rgb(255, 246, 3);
+  border-radius: 41% 44% 29% 25% / 37% 37% 19% 25%;
+  width: 600px;
+  height: 500px;
+  min-width: 600px ;
+  min-height: 500px;
+  position: relative;
+}
+
+.orejaIzquierda {
+  border-radius: 0% 100% 12% 88% / 0% 81% 19% 100%;
+  position: absolute;
+  z-index: -1;
+  background-color: rgb(255, 246, 3);
+  width: 199px;
+  height: 504px;
+  top: -271px;
+  left: -176px;
+  transform: rotate(-35deg) skew(4deg, 14deg);
+  overflow: hidden;
+}
+
+.cuadrado {
+    background-color: black;
+    width: 235px;
+    height: 178px;
+    position: absolute;
+    left: -125px;
+    transform: rotate(-56deg);
+}
+
+.orejaDerecha {
+  border-radius: 0% 100% 12% 88% / 0% 81% 19% 100%;
+  position: absolute;
+  z-index: -1;
+  background-color: rgb(255, 246, 3);
+  width: 199px;
+  height: 504px;
+  top: -187px;
+  left: 584px;
+  transform: rotate(92deg) skew(4deg, 14deg);
+  overflow: hidden;
+}
+
+.cuadrado2 {
+  background-color: black;
+  width: 140px;
+  height: 109px;
+}
+
+.ojoIzquierdo {
+  width: 90px;
+  height: 90px;
+  background-color: black;
+  border-radius: 68px 50px 50px 50px;
+  position: absolute;
+  bottom: 185px;
+  right: 433px;
+}
+
+.ojoDerecho {
+  width: 90px;
+  height: 90px;
+  background-color: black;
+  border-radius: 50px 68px 50px 50px;
+  position: absolute;
+  bottom: 185px;
+  left: 440px;
+}
+
+.pupilaIzquierda {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 58% 42% 53% 47% / 41% 50% 50% 59% ;
+  position: absolute;
+  right: 18px;
+  bottom: 39px;
+}
+
+.pupilaDerecha {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 42% 58% 43% 57% / 36% 43% 57% 64% ;
+  position: absolute;
+  left: 15px;
+  bottom: 40px;
+}
+
+.nariz {
+  width: 0;
+  height: 447px;
+  border-top: 20px solid #000;
+  border-left: 20px solid transparent;
+  position: absolute;
+  transform: rotate(134deg) skew(15deg, 15deg);
+  left: 93px;
+}
+
+.boca {
+  width: 160px;
+  height: 100px;
+  border: solid 5px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 55%/100px 100px 0 0;
+  transform: rotate(168deg) skew(40deg, 10deg);
+  position: absolute;
+  bottom: 69px;
+  right: 189px;
+}
+
+.boca2 {
+  width: 145px;
+  height: 100px;
+  border: solid 5px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 55%/100px 100px 0 0;
+  transform: rotate(1deg) skew(-64deg, 5deg);
+  position: absolute;
+  left: 48px;
+  
+}
+
+.mejilla {
+  width: 162px;
+  height: 142px;
+  position: absolute;
+  background-color: rgb(252, 44, 16);
+  border-radius: 79% 21% 70% 30% / 88% 30% 70% 12%;
+  bottom: 25px;
+  right: -20px;
+  transform: rotate(-29deg);
+}
+
+.mejilla2 {
+  border-radius: 79% 21% 70% 30% / 88% 30% 70% 12%;
+  width: 165px;
+  height: 158px;
+  position: absolute;
+  background-color: rgb(252, 44, 16);
+  bottom: 15px;
+  left: -18px;
+  transform: rotate(-81deg);
+}
+
+/* FINALIZA CABEZA */
+
+/* CUERPO */
+
+.cuerpo {
+  width: 685px;
+  height: 738px;
+  min-width: 685px;
+  min-height: 738px;
+  background-color: rgb(255, 246, 3);
+  position: relative;
+  bottom: -568px;
+  left: -633px;
+  border-bottom-left-radius: 45% 43%;
+  border-bottom-right-radius: 45% 43%;
+  border-top-left-radius: 30% 90%;
+  border-top-right-radius: 30% 90%;
+  z-index: -1;
+}
+
+.brazoIzquierdo {
+  width: 198px;
+  height: 305px;
+  border: 3px solid #444;
+  border-top: none;
+  border-bottom-left-radius: 50% 70%;
+  border-bottom-right-radius: 45% 30%;
+  position: absolute;
+  top: 193px;
+  left: 72px;
+  transform: rotate(-20deg);
+}
+
+.brazoDerecho {
+  width: 198px;
+  height: 305px;
+  position: absolute;
+  top: 198px;
+  left: 421px;
+  transform: rotate(20deg);
+  border: 3px solid #444;
+  border-top: none;
+  border-bottom-right-radius: 50% 70%;
+  border-bottom-left-radius: 45% 30%;
+}
+
+.pieIzquierdo {
+  width: 108px;
+  height: 145px;
+  background-color: rgb(255, 246, 3);
+  position: absolute;
+  top: 669px;
+  left: 112px;
+  transform: rotate(35deg);
+  border-radius: 80% 20% 80% 10%;
+  z-index: 0;
+
+}
+
+.pieDerecho {
+  width: 108px;
+  height: 145px;
+  position: absolute;
+  background-color: rgb(255, 246, 3);
+  border-radius: 80% 20% 80% 10%;
+  top: 666px;
+  left: 449px;
+  transform: rotate(99deg);
+
+}
+
+/* FINALIZA CUERPO */
+
+/* COLA */
+
+.relleno {
+  width: 100px;
+  height: 100px;
+  left: -82px;
+  position: absolute;
+  background-color: rgb(255, 246, 3);
+}
+
+.cola {
+  width: 176px;
+  height: 100px;
+  min-width: 176px;
+  min-height: 100px;
+  background-color: rgb(142, 64, 16);
+  left: 666px;
+  bottom: -354px;
+  position: relative;
+  z-index: -2;
+}
+
+.cola1 {
+  width: 200px;
+  height: 90px;
+  background-color: rgb(142, 64, 16);
+  left: 38px;
+  bottom: 47px;
+  position: absolute;
+  z-index: -2;
+  transform: rotate(66deg) skew(-28deg, 0deg);
+}
+
+.cola2 {
+  width: 295px;
+  height: 122px;
+  background-color: rgb(255, 246, 3);
+  position: absolute;
+  left: 24px;
+  top: -199px;
+  transform: rotate(-14deg) skew(13deg, 10deg);
+}
+
+.cola3 {
+  width: 364px;
+  height: 145px;
+  background-color: rgb(255, 246, 3);
+  position: absolute;
+  left: 47px;
+  top: -312px;
+  transform: rotate(65deg) skew(-28deg, 0deg);
+}
+
+.cola4 {
+  width: 519px;
+  height: 229px;
+  background-color: rgb(255, 246, 3);
+  position: absolute;
+  left: 84px;
+  top: -532px;
+  transform: rotate(159deg) skew(4deg, 19deg);
+}
+
+.cola5 {
+  width: 506px;
+  height: 222px;
+  background-color: rgb(255, 246, 3);
+  position: absolute;
+  left: 184px;
+  top: -511px;
+  transform: rotate(159deg) skew(-35deg, 19deg);
+}
