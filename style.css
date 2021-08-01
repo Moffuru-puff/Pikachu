@@ -323,9 +323,12 @@ body {
   color: black;
   background-color: transparent;
   display: flex;
-  position: absolute;
-  right: -236px;
-  top: -410px;
+  position: relative;
+  align-items: flex-end;
+  width: 387px;
+  font-size: 39px;
+  right: 432px;
+  top: 157px;
 }
 
 a {
