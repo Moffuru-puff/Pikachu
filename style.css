@@ -318,3 +318,16 @@ body {
   top: -511px;
   transform: rotate(159deg) skew(-35deg, 19deg);
 }
+
+.love {
+  color: black;
+  background-color: transparent;
+  display: flex;
+  position: absolute;
+  right: -236px;
+  top: -410px;
+}
+
+a {
+  text-decoration: none;
+}
